@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   background-color: hsl(47, 88%, 63%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -21,14 +22,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 85vh;
+  max-width: 375px;
+  width: 90%;
+  height: 65vh;
   gap: 18px;
   border-radius: 11px;
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid black;
-  max-width: 600px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 3);
 }
 
