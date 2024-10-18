@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  max-width: 1440px;
   font-family: "Figtree", sans-serif;
   font-size: 16px;
   background-color: hsl(47, 88%, 63%);
@@ -13,6 +16,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  min-height: 100vh;
 }
 
 .contents {
@@ -24,7 +29,7 @@ body {
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid black;
-  max-width: 375px;
+  max-width: 300px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 3);
 }
 
