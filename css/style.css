@@ -13,23 +13,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  min-height: 100svh;
 }
 
 .contents {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  max-width: 379px;
-  width: 90%;
-  height: 65vh;
-  gap: 18px;
+  gap: 15px;
   border-radius: 11px;
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid black;
+  max-width: 375px;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 3);
 }
 
